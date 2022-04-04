@@ -5,7 +5,10 @@ const Review = (props) => {
     console.log(image)
     return (
         <div className='bg-green-600 text-green-200 p-5 rounded grid grid-cols-1 hover:scale-110 duration-200 text-center'>
+            <div className="flex items-center justify-center mb-2">
+
             <img className='h-20 w-20 bg-red-500 rounded-full ' src={image} alt="" />
+            </div>
             <p>{name}</p>
             <p>-"{comment}"</p>
             <p>Rating: {rating} (5)</p>
