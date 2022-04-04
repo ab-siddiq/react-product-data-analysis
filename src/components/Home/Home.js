@@ -1,10 +1,15 @@
+import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import HeroImage from '../../images/Tesla-Model-Pi.jpg'
 import Review from '../Review/Review';
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     
-    console.log(reviews)
+    const navigate = useNavigate();
+    const showAllReviews = () => {
+        const path = '/reviews';
+        navigate(path);
+    }
     return (
         <div className="">        
             <div className=' grid grid-cols-3 gap-10 items-center'>
@@ -25,7 +30,7 @@ const Home = () => {
 
                     {reviews.slice(0,3).map(review=> <Review key={review.id} review={review}></Review>)}
                 </div>
-                <button onClick={()=>{}}>See All Reviews</button>
+                <button onClick={showAllReviews}>See All Reviews</button>
             </div>
         </div>
     );
