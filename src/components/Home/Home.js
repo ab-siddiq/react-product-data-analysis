@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
-import HeroImage from '../../images/Tesla-Model-Pi.jpg'
+import HeroImage from '../Tesla-Model-Pi.jpg';
 import Review from '../Review/Review';
 const Home = () => {
     const [reviews, setReviews] = useReviews();
