@@ -17,7 +17,7 @@ const Home = () => {
                     <p className='font-bold text-black-600 text-4xl text-green-900'>Make Yourself Smarter</p>
                     <p className='font-bold text-blue-700 text-4xl'>Buy This Phone</p>
                     <p className='my-10 text-green-900'>We are going to launch a new mobile phone. We put all the latest technology to our upcoming phone. You can feel the real environment flavor into this phone. Its all depended on natural concept. It's totally a new revolution. We are the first tech company who are availing all these feature first time to the mobile devices.</p>
-                    <button className=' bg-green-600 font-bold py-2 px-4 rounded hover:scale-105 text-green-200 hover:text-green-900'>Have A Look</button>
+                    <button className=' bg-green-600 font-bold py-2 px-4 rounded hover:scale-105 text-green-200 hover:text-green-900 duration-200'>Have A Look</button>
                 </div>
                 <div className="">
                     <img src={HeroImage} alt="" />
@@ -30,7 +30,7 @@ const Home = () => {
 
                     {reviews.slice(0,3).map(review=> <Review key={review.id} review={review}></Review>)}
                 </div>
-                <button className='text-center bg-green-600 font-bold py-2 px-4 rounded hover:scale-105 text-green-200 hover:text-green-900' onClick={showAllReviews}>See All Reviews</button>
+                <button className='text-center bg-green-600 font-bold py-2 px-4 rounded hover:scale-105 text-green-200 hover:text-green-900 duration-200' onClick={showAllReviews}>See All Reviews</button>
             </div>
         </div>
     );
