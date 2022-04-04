@@ -13,13 +13,12 @@ Add Node Package Manager
 ### `npm install`
 
 ### What used in this project-
-- Tailwind CSS
-- Rechart
-- React Router
-- Custom Hook
-- CustomLink
-- Custom Api
-- React Hooks
+- Tailwind CSS for ui
+- Rechart for showing data
+- React Router for navigation
+- Custom Hook for remove repeated code of data load
+- Custom Api & Api to load data in the api
+- React Hooks 
   - useState()
   - useEffect()
   - useNavigate()
