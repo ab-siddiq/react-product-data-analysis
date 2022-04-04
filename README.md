@@ -12,8 +12,14 @@ Add Node Package Manager
 
 ### `npm install`
 
-
-Install Tailwind css
-Install Rechart
-Install React router
-
+### What used in this project-
+- Tailwind CSS
+- Rechart
+- React Router
+- Custom Hook
+- CustomLink
+- Custom Api
+- React Hooks
+  - useState()
+  - useEffect()
+  - useNavigate()
