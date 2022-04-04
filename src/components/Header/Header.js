@@ -1,11 +1,11 @@
 import React from 'react';
-import CustomLink from '../components/CustomLink/CustomLink';
+import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
     return (
-        <div className='bg-green-900 '>
-            <nav className='flex justify-between  mx-96 py-3'>
-                <CustomLink to="/">Home</CustomLink>
+        <div className='bg-green-700 '>
+            <nav className='flex justify-between  mx-96 py-3 font-bold text-xl '>
+                <CustomLink  to="/home">Home</CustomLink>
                 <CustomLink to="/reviews">Reviews</CustomLink>
                 <CustomLink to="/dashboard">Dashboard</CustomLink>
                 <CustomLink to="/blogs">Blogs</CustomLink>

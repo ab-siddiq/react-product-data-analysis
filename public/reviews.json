@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Jahid",
+        "comment": "Ow! This mobile is really awesome",
+        "rating": 5,
+        "image": "../src/images/13.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Anwar",
+        "comment": "The phone is too pricy",
+        "rating": 4,
+        "image": "../src/images/14.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Nahid",
+        "comment": "I didn't like some feature of this mobile",
+        "rating": 3.5,
+        "image": "../src/images/23.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Nrepen",
+        "comment": "The phone performance is really very impressive",
+        "rating": 5,
+        "image": "../src/images/23.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Stanely",
+        "comment": "There are too many bugs in the phone",
+        "rating": 2.3,
+        "image": "../src/images/27.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Rubel",
+        "comment": "I still confused about keeping this phone with me",
+        "rating": 4,
+        "image": "../src/images/29.jpg"
+    }
+]
